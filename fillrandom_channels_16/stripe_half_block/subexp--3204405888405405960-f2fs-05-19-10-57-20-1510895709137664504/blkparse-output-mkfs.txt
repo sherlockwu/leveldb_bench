@@ -1,0 +1,94 @@
+  8,33  21        1     0.000000000 30135  D   N 0 (00 ..) [kworker/u65:0]
+  8,33  11        1 1266874889.698761260 30470  D   R 532480 + 8 [mkfs.f2fs]
+  8,33  11        2 1266874889.700315677 30470  D  WS 16384 + 16 [mkfs.f2fs]
+  8,33  11        3 1266874889.700320208 30470  D  WS 20480 + 48 [mkfs.f2fs]
+  8,33  11        4 1266874889.700323121 30470  D  WS 24576 + 8 [mkfs.f2fs]
+  8,33  11        5 1266874889.700325240 30470  D  WS 24616 + 8 [mkfs.f2fs]
+  8,33  11        6 1266874889.700327194 30470  D  WS 28672 + 512 [mkfs.f2fs]
+  8,33  11        7 1266874889.700334910 30470  D  WS 29184 + 512 [mkfs.f2fs]
+  8,33  11        8 1266874889.700341035 30470  D  WS 29696 + 512 [mkfs.f2fs]
+  8,33  11        9 1266874889.700346942 30470  D  WS 30208 + 512 [mkfs.f2fs]
+  8,33  11       10 1266874889.700353605 30470  D  WS 30720 + 512 [mkfs.f2fs]
+  8,33  11       11 1266874889.700360575 30470  D  WS 31232 + 512 [mkfs.f2fs]
+  8,33  11       12 1266874889.700366583 30470  D  WS 31744 + 512 [mkfs.f2fs]
+  8,33  11       13 1266874889.700371939 30470  D  WS 32256 + 512 [mkfs.f2fs]
+  8,33  11       14 1266874889.700377242 30470  D  WS 36864 + 512 [mkfs.f2fs]
+  8,33  11       15 1266874889.700390631 30470  D  WS 37376 + 512 [mkfs.f2fs]
+  8,33  11       16 1266874889.700396429 30470  D  WS 37888 + 512 [mkfs.f2fs]
+  8,33  11       17 1266874889.700402126 30470  D  WS 38400 + 512 [mkfs.f2fs]
+  8,33  11       18 1266874889.700774999 30470  D  WS 38912 + 512 [mkfs.f2fs]
+  8,33  11       19 1266874889.700781919 30470  D  WS 39424 + 512 [mkfs.f2fs]
+  8,33  11       20 1266874889.700787255 30470  D  WS 39936 + 512 [mkfs.f2fs]
+  8,33  11       21 1266874889.700791980 30470  D  WS 40448 + 512 [mkfs.f2fs]
+  8,33  11       22 1266874889.700797273 30470  D  WS 524288 + 8 [mkfs.f2fs]
+  8,33  11       23 1266874889.700798977 30470  D  WS 532480 + 8 [mkfs.f2fs]
+  8,33  11       24 1266874889.700800447 30470  D  WS 536576 + 8 [mkfs.f2fs]
+  8,33  19        1     0.013506409 30473  D RSM 20480 + 8 [mount]
+  8,33  19        2     0.013795372 30473  D RSM 20520 + 8 [mount]
+  8,33  19        3     0.014061068 30473  D RSM 24576 + 8 [mount]
+  8,33  19        4     0.014325525 30473  D RSM 24616 + 8 [mount]
+  8,33  19        5     0.014644825 30473  D RSM 20488 + 8 [mount]
+  8,33  19        6     0.014796920 30473  D RSM 20496 + 24 [mount]
+  8,33  19        7     0.014980027 30473  D RSM 28672 + 24 [mount]
+  8,33  19        8     0.015204931 30473  D RSM 36864 + 32 [mount]
+  8,33  19        9     0.016558449 30473  D   R 36896 + 32 [mount]
+  8,33  19       10     0.016587205 30473  D  RS 536576 + 8 [mount]
+  8,33  19       11     0.018105675 30473  D  RS 532480 + 8 [mount]
+  8,33  12        1     0.003806045 30403  D   N 0 (00 ..) [kworker/u66:3]
+  8,33  12        2     0.004289589 30403  D   N 0 (00 ..) [kworker/u66:3]
+CPU11 (8,33):
+ Reads Queued:           0,        0KiB	 Writes Queued:           0,        0KiB
+ Read Dispatches:        1,        4KiB	 Write Dispatches:       23,     4148KiB
+ Reads Requeued:         0		 Writes Requeued:         0
+ Reads Completed:        0,        0KiB	 Writes Completed:        0,        0KiB
+ Read Merges:            0,        0KiB	 Write Merges:            0,        0KiB
+ Read depth:            15        	 Write depth:            23
+ IO unplugs:             0        	 Timer unplugs:           0
+CPU12 (8,33):
+ Reads Queued:           0,        0KiB	 Writes Queued:           0,        0KiB
+ Read Dispatches:        0,        0KiB	 Write Dispatches:        0,        0KiB
+ Reads Requeued:         0		 Writes Requeued:         0
+ Reads Completed:        0,        0KiB	 Writes Completed:        0,        0KiB
+ Read Merges:            0,        0KiB	 Write Merges:            0,        0KiB
+ Read depth:            15        	 Write depth:            23
+ PC Reads Queued:        0,        0KiB	 PC Writes Queued:        0,        0KiB
+ PC Read Disp.:          2,        0KiB	 PC Write Disp.:          0,        0KiB
+ PC Reads Req.:          0		 PC Writes Req.:          0
+ PC Reads Compl.:        0		 PC Writes Compl.:        0
+ IO unplugs:             0        	 Timer unplugs:           0
+CPU19 (8,33):
+ Reads Queued:           0,        0KiB	 Writes Queued:           0,        0KiB
+ Read Dispatches:       11,       84KiB	 Write Dispatches:        0,        0KiB
+ Reads Requeued:         0		 Writes Requeued:         0
+ Reads Completed:        0,        0KiB	 Writes Completed:        0,        0KiB
+ Read Merges:            0,        0KiB	 Write Merges:            0,        0KiB
+ Read depth:            15        	 Write depth:            23
+ IO unplugs:             0        	 Timer unplugs:           0
+CPU21 (8,33):
+ Reads Queued:           0,        0KiB	 Writes Queued:           0,        0KiB
+ Read Dispatches:        0,        0KiB	 Write Dispatches:        0,        0KiB
+ Reads Requeued:         0		 Writes Requeued:         0
+ Reads Completed:        0,        0KiB	 Writes Completed:        0,        0KiB
+ Read Merges:            0,        0KiB	 Write Merges:            0,        0KiB
+ Read depth:            15        	 Write depth:            23
+ PC Reads Queued:        0,        0KiB	 PC Writes Queued:        0,        0KiB
+ PC Read Disp.:          1,        0KiB	 PC Write Disp.:          0,        0KiB
+ PC Reads Req.:          0		 PC Writes Req.:          0
+ PC Reads Compl.:        0		 PC Writes Compl.:        0
+ IO unplugs:             0        	 Timer unplugs:           0
+
+Total (8,33):
+ Reads Queued:           0,        0KiB	 Writes Queued:           0,        0KiB
+ Read Dispatches:       12,       88KiB	 Write Dispatches:       23,     4148KiB
+ Reads Requeued:         0		 Writes Requeued:         0
+ Reads Completed:        0,        0KiB	 Writes Completed:        0,        0KiB
+ Read Merges:            0,        0KiB	 Write Merges:            0,        0KiB
+ PC Reads Queued:        0,        0KiB	 PC Writes Queued:        0,        0KiB
+ PC Read Disp.:          3,        0KiB	 PC Write Disp.:          0,        0KiB
+ PC Reads Req.:          0		 PC Writes Req.:          0
+ PC Reads Compl.:        0		 PC Writes Compl.:        0
+ IO unplugs:             0        	 Timer unplugs:           0
+
+Throughput (R/W): 0KiB/s / 0KiB/s
+Events (8,33): 38 entries
+Skips: 0 forward (0 -   0.0%)

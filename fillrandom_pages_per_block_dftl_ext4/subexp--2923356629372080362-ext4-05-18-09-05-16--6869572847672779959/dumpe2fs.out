@@ -1,0 +1,64 @@
+Filesystem volume name:   <none>
+Last mounted on:          /mnt/ext4_test
+Filesystem UUID:          3e86a6fa-2aaa-49b4-b4ae-367e206115d2
+Filesystem magic number:  0xEF53
+Filesystem revision #:    1 (dynamic)
+Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent flex_bg sparse_super large_file huge_file dir_nlink extra_isize
+Filesystem flags:         signed_directory_hash 
+Default mount options:    user_xattr acl
+Filesystem state:         clean
+Errors behavior:          Continue
+Filesystem OS type:       Linux
+Inode count:              65536
+Block count:              65536
+Reserved block count:     3276
+Free blocks:              59348
+Free inodes:              65525
+First block:              0
+Block size:               4096
+Fragment size:            4096
+Reserved GDT blocks:      15
+Blocks per group:         32768
+Fragments per group:      32768
+Inodes per group:         32768
+Inode blocks per group:   1024
+Flex block group size:    16
+Filesystem created:       Thu May 18 09:05:23 2017
+Last mount time:          Thu May 18 09:05:23 2017
+Last write time:          Thu May 18 09:05:23 2017
+Mount count:              1
+Maximum mount count:      -1
+Last checked:             Thu May 18 09:05:23 2017
+Check interval:           0 (<none>)
+Lifetime writes:          24 MB
+Reserved blocks uid:      0 (user root)
+Reserved blocks gid:      0 (group root)
+First inode:              11
+Inode size:	          128
+Journal inode:            8
+Default directory hash:   half_md4
+Directory Hash Seed:      5ae3219b-f8dd-4338-af0a-e4ed9c11b579
+Journal backup:           inode blocks
+Journal features:         journal_incompat_revoke
+Journal size:             16M
+Journal length:           4096
+Journal sequence:         0x000000e7
+Journal start:            1627
+
+
+Group 0: (Blocks 0-32767)
+  Primary superblock at 0, Group descriptors at 1-1
+  Reserved GDT blocks at 2-16
+  Block bitmap at 17 (+17), Inode bitmap at 19 (+19)
+  Inode table at 21-1044 (+21)
+  21230 free blocks, 32706 free inodes, 3 directories
+  Free blocks: 2075, 2491-3403, 3696-4714, 5227-5631, 6661-6786, 8022-8109, 10179-20274, 24186-32767
+  Free inodes: 38, 52-58, 60, 72-32768
+Group 1: (Blocks 32768-65535)
+  Backup superblock at 32768, Group descriptors at 32769-32769
+  Reserved GDT blocks at 32770-32784
+  Block bitmap at 18 (bg #0 + 18), Inode bitmap at 20 (bg #0 + 20)
+  Inode table at 1045-2068 (bg #0 + 1045)
+  14125 free blocks, 32768 free inodes, 0 directories
+  Free blocks: 36881-36887, 36896-37119, 37254-39423, 39427-39935, 40453-40575, 40687-40703, 40957-40959, 41989-42495, 43013-43519, 43525-44031, 45057-45567, 46338-46591, 47109-47615, 47621-48127, 49157-49663, 51999-52223, 52229-52735, 53253-53759, 54047-54271, 54790-55295, 55301-55807, 55813-56319, 56325-56831, 58373-58879, 60421-60927, 61445-61951, 62751-62975, 63493-63999, 64005-64511, 64517-65023, 65029-65535
+  Free inodes: 32769-65536

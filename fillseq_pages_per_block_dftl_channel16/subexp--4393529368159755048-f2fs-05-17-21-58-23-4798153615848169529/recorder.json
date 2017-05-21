@@ -1,0 +1,266 @@
+{
+    "ftl_func_user_traffic": [
+        {
+            "timestamp": 0.0, 
+            "write_traffic_size": 0, 
+            "discard_traffic_size": 0, 
+            "read_traffic_size": 0
+        }, 
+        {
+            "timestamp": 0.1, 
+            "write_traffic_size": 14884864, 
+            "discard_traffic_size": 28672, 
+            "read_traffic_size": 110592
+        }, 
+        {
+            "timestamp": 0.2, 
+            "write_traffic_size": 30224384, 
+            "discard_traffic_size": 45056, 
+            "read_traffic_size": 110592
+        }, 
+        {
+            "timestamp": 0.3, 
+            "write_traffic_size": 45473792, 
+            "discard_traffic_size": 65536, 
+            "read_traffic_size": 110592
+        }, 
+        {
+            "timestamp": 0.4, 
+            "write_traffic_size": 60653568, 
+            "discard_traffic_size": 81920, 
+            "read_traffic_size": 110592
+        }, 
+        {
+            "timestamp": 0.5, 
+            "write_traffic_size": 75804672, 
+            "discard_traffic_size": 102400, 
+            "read_traffic_size": 110592
+        }, 
+        {
+            "timestamp": 0.6, 
+            "write_traffic_size": 90783744, 
+            "discard_traffic_size": 122880, 
+            "read_traffic_size": 110592
+        }, 
+        {
+            "timestamp": 0.7, 
+            "write_traffic_size": 106131456, 
+            "discard_traffic_size": 139264, 
+            "read_traffic_size": 110592
+        }, 
+        {
+            "timestamp": 0.8, 
+            "write_traffic_size": 121135104, 
+            "discard_traffic_size": 163840, 
+            "read_traffic_size": 110592
+        }
+    ], 
+    "workload_duration_sec": 0.80472, 
+    "general_accumulator": {
+        "Mapping_Cache": {
+            "miss": 118, 
+            "hit": 59500
+        }, 
+        "channel_busy_time": {
+            "channel_4-write-foreground": 744200000, 
+            "channel_7-read-background": 140000, 
+            "channel_11-write-foreground": 744000000, 
+            "channel_8-write-foreground": 744000000, 
+            "channel_5-read-background": 140000, 
+            "channel_0-read-foreground": 20000, 
+            "channel_13-write-foreground": 744000000, 
+            "channel_11-read-foreground": 40000, 
+            "channel_2-write-foreground": 744200000, 
+            "channel_15-read-background": 140000, 
+            "channel_14-read-foreground": 40000, 
+            "channel_1-read-background": 140000, 
+            "channel_9-read-background": 160000, 
+            "channel_3-write-foreground": 744200000, 
+            "channel_1-read-foreground": 20000, 
+            "channel_5-write-foreground": 744200000, 
+            "channel_10-write-foreground": 744000000, 
+            "channel_1-write-foreground": 744200000, 
+            "channel_2-read-background": 160000, 
+            "channel_12-read-background": 140000, 
+            "channel_11-read-background": 140000, 
+            "channel_10-read-background": 140000, 
+            "channel_10-read-foreground": 40000, 
+            "channel_14-write-foreground": 744000000, 
+            "channel_4-read-background": 160000, 
+            "channel_3-read-background": 160000, 
+            "channel_8-read-background": 160000, 
+            "channel_9-write-foreground": 744000000, 
+            "channel_6-read-background": 140000, 
+            "channel_0-read-background": 140000, 
+            "channel_7-write-foreground": 744000000, 
+            "channel_13-read-background": 140000, 
+            "channel_12-write-foreground": 744000000, 
+            "channel_15-read-foreground": 40000, 
+            "channel_6-write-foreground": 744000000, 
+            "channel_14-read-background": 160000, 
+            "channel_0-write-foreground": 744200000, 
+            "channel_15-write-foreground": 744000000
+        }, 
+        "flash_ops": {
+            "OP_READ": 128, 
+            "OP_WRITE": 59526
+        }, 
+        "traffic": {
+            "read": 20480, 
+            "write": 121909248, 
+            "discard": 167936
+        }, 
+        "translation": {
+            "overwrite-in-cache": 59526, 
+            "read-trans-for-load": 118
+        }
+    }, 
+    "ftl_func_valid_ratios": [
+        {
+            "1.00": 32
+        }, 
+        {
+            "1.00": 32, 
+            "0.02": 8, 
+            "0.25": 96, 
+            "0.00": 40, 
+            "0.01": 26, 
+            "0.22": 2, 
+            "0.23": 14, 
+            "0.03": 4
+        }, 
+        {
+            "1.00": 32, 
+            "0.02": 14, 
+            "0.25": 220, 
+            "0.00": 52, 
+            "0.01": 18, 
+            "0.04": 4, 
+            "0.05": 4, 
+            "0.03": 2, 
+            "0.26": 4
+        }, 
+        {
+            "1.00": 32, 
+            "0.02": 6, 
+            "0.25": 330, 
+            "0.00": 52, 
+            "0.01": 26, 
+            "0.06": 16, 
+            "0.07": 4, 
+            "0.04": 6, 
+            "0.05": 6, 
+            "0.03": 2, 
+            "0.26": 6
+        }, 
+        {
+            "1.00": 32, 
+            "0.08": 2, 
+            "0.09": 16, 
+            "0.02": 8, 
+            "0.25": 440, 
+            "0.00": 46, 
+            "0.01": 30, 
+            "0.06": 6, 
+            "0.07": 4, 
+            "0.05": 4, 
+            "0.03": 4, 
+            "0.26": 8
+        }, 
+        {
+            "1.00": 32, 
+            "0.08": 8, 
+            "0.09": 4, 
+            "0.02": 20, 
+            "0.25": 552, 
+            "0.00": 46, 
+            "0.01": 22, 
+            "0.06": 2, 
+            "0.07": 2, 
+            "0.11": 16, 
+            "0.03": 6, 
+            "0.26": 8
+        }, 
+        {
+            "1.00": 32, 
+            "0.12": 4, 
+            "0.09": 8, 
+            "0.02": 20, 
+            "0.25": 662, 
+            "0.00": 46, 
+            "0.01": 18, 
+            "0.07": 2, 
+            "0.04": 6, 
+            "0.11": 18, 
+            "0.03": 4, 
+            "0.26": 10
+        }, 
+        {
+            "1.00": 32, 
+            "0.09": 2, 
+            "0.02": 20, 
+            "0.25": 774, 
+            "0.00": 50, 
+            "0.01": 14, 
+            "0.04": 4, 
+            "0.05": 2, 
+            "0.14": 2, 
+            "0.16": 16, 
+            "0.10": 8, 
+            "0.13": 4, 
+            "0.03": 8, 
+            "0.26": 10
+        }, 
+        {
+            "1.00": 32, 
+            "0.02": 20, 
+            "0.25": 886, 
+            "0.00": 48, 
+            "0.01": 14, 
+            "0.03": 10, 
+            "0.04": 4, 
+            "0.05": 2, 
+            "0.15": 6, 
+            "0.17": 4, 
+            "0.16": 12, 
+            "0.11": 4, 
+            "0.13": 2, 
+            "0.12": 4, 
+            "0.26": 10
+        }
+    ], 
+    "simulation_duration": 900000000.0, 
+    "write_bandwidth": 144.14951784471617, 
+    "ftl_func_erasure_count_dist": [
+        {
+            "0": 16384
+        }, 
+        {
+            "0": 16384
+        }, 
+        {
+            "0": 16384
+        }, 
+        {
+            "0": 16384
+        }, 
+        {
+            "0": 16384
+        }, 
+        {
+            "0": 16384
+        }, 
+        {
+            "0": 16384
+        }, 
+        {
+            "0": 16384
+        }, 
+        {
+            "0": 16384
+        }
+    ], 
+    "workload_duration_nsec": 804720000, 
+    "interest_workload_start": 27180000, 
+    "interest_workload_end": 831900000
+}
